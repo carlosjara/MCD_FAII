@@ -1,0 +1,14 @@
+lineal:
+  order: 1
+
+cuadratica:
+  order: 2
+  
+cubica:
+  order: 3
+  
+orden5:
+  order: 5
+  
+orden8:
+  order: 6
