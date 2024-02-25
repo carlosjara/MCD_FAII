@@ -1,0 +1,44 @@
+Quiz 1
+1. Un método que permite tener en cuenta la tendencia y no la estacionalidad:
+a. Suavización Exponencial Lineal de Winters (Holt-Winters)
+b. Promedio Móvil
+c. Suavización Exponencial Simple (SES)
+[X] d. Suavización Exponencial Lineal (Holt)
+
+
+2. Una característica de una serie estacional es:
+[X] a. La serie exhibe patrones sistematicos o consistentes durante uno o varios períodos del año.
+b. La media de la serie es cero
+c. La serie no tiene autocorrelación
+d. La varianza no cambia con el tiempo
+e. La media no cambia con el tiempo
+
+3. En el contexto de la suavización exponencial en el análisis de series de tiempo, ¿cuál de las siguientes afirmaciones es verdadera?
+a. La suavización exponencial es un método que promedia las observaciones pasadas con el fin de reducir el ruido y obtener una estimación más precisa de la tendencia de la serie temporal.
+b. La suavización exponencial es un enfoque para pronosticar valores futuros basado únicamente en los valores pasados de la serie temporal, sin considerar la tendencia o la estacionalidad.
+c. La suavización exponencial es un método que utiliza una ventana móvil para calcular promedios ponderados de las observaciones pasadas, asignando pesos decrecientes linealmente.
+[X] d. La suavización exponencial es un método que asigna un peso decreciente exponencialmente a las observaciones pasadas, otorgando más importancia a las observaciones más recientes.
+
+
+4. El método de Suavización Exponencial Simple (SES) se caracteriza por:
+a. Otorgar más peso a las observaciones mas antiguas que a las recientes
+b. Tener en cuenta la posibilidad de una tendencia y no estacionalidad.
+[X] c. Tiene un solo parametro de suavización alpha.
+d. Tener en cuenta la posibilidad de un componente estacional y no de tendencia.
+e. Tener en cuenta la posibilidad de un comportamiento cíclico y no el componente estacionario.
+
+
+5.Uno de los siguientes NO es un componente de una serie de tiempo:
+a. La tendencia
+b. La tendencia cuadratica.
+c. El componente (o factor) cíclico.
+d.Componente puramente aleatoria
+[X] e. Ninguna de las opciones, todas son componentes de una serie de tiempo
+
+
+
+
+Una forma de tener en cuenta la estacionalidad al modelar una serie es emplear
+
+Un método que permite tener en cuenta la tendencia de la serie:
+

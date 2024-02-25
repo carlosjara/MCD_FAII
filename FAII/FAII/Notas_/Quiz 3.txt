@@ -1,0 +1,34 @@
+Quiz 3
+1. Todo modelo MA se puede expresar como un modelo AR. Sobre esta afirmación se puede decir que:
+[X] a. Es falsa porque algunos modelos MA no se pueden expresar como un mode AR
+b. Es falsa porque ningún modelo MA se puede expresar como un modelo AR
+c. Es verdadera
+[X] d. Es verdadera solo en algunas ocasiones
+
+2. Sobre un modelo AR(p) se puede afirmar:
+a. Siempre será estacionario
+b. Siempre tiene una tendencia
+c. Siempre tendrá estacionalidad
+d. Siempre se puede convertir en un modelo MA
+[X] e. En algunas ocasiones puede ser estacionario y en otras no
+
+3. Si una serie de tiempo presenta una tendencia creciente, y se quiere emplear un modelo de la familia ARIMA, entonces:
+a. NO es posible emplear los modelos ARIMA
+b. Se puede calcular el logaritmo la serie y después estimar un modelo ARMA
+c. Se tendrá que emplear solo modelos ARMA
+[X] d. La serie se puede diferenciar hasta encontrar una serie sin tendencia y modelar las diferencias con un modelo ARMA
+
+		
+4. Sobre los modelos MA se puede afirmar:
+a. Siempre tienen tendencia
+b. Son heteroscedásticos
+c. Todas las afirmaciones presentadas son verdaderas.
+[X] d. Son estacionarios 
+e. Son siempre estacionales
+
+5. La diferencia entre la ACF y la PACF para s rezagos es:
+a. Que la primera se calcula únicamente para los modelos MA y la segunda para los AR
+b. Que la primera se calcula únicamente para los modelos ARMA y la segunda para los ARIMA
+c. Que la primera aísla el efecto en la autocorrelación de los rezagos intermedios entre el periodo t y el t + s y la segunda no.
+d. Que la primera se calcula únicamente para los modelos AR y la segunda para los MA
+[X] e. Que la segunda aísla el efecto en la autocorrelación de los rezagos intermedios entre el periodo t y el t + s y la primera no.

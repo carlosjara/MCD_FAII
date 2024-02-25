@@ -1,0 +1,43 @@
+Modelo,Configuración,RMSE,Coef R2
+Suavizacion Media Movil,Orden 5,291.01606293356485,-1.7352841764702522
+Suavizacion Media Movil,Orden 15,212.44821683703358,-0.45772201136339397
+Suavizacion Media Movil,Orden 45,199.5862432109383,-0.28655909203066776
+Suavizacion Media Movil,Orden 60,180.8730362518236,-0.05661358249378434
+Suavizacion Media Movil,Orden 65,178.15180368082505,-0.025059272421213308
+Suavizacion Media Movil,Orden 68,180.31647445691263,-0.05012100635109906
+Suavizacion Media Movil,Orden 70,183.40053645318542,-0.08634991437726325
+Suavizacion Media Movil,Orden 80,207.41417750048424,-0.38945795140537975
+Suavizacion Media Movil (Sin),Orden 5,291.01606293356485,-1.7352841764702522
+Suavizacion Media Movil (Sin),Orden 15,212.44821683703358,-0.45772201136339397
+Suavizacion Media Movil (Sin),Orden 45,199.5862432109383,-0.28655909203066776
+Suavizacion Media Movil (Sin),Orden 60,180.8730362518236,-0.05661358249378434
+Suavizacion Media Movil (Sin),Orden 65,178.15180368082505,-0.025059272421213308
+Suavizacion Media Movil (Sin),Orden 68,180.31647445691263,-0.05012100635109906
+Suavizacion Media Movil (Sin),Orden 70,183.40053645318542,-0.08634991437726325
+Suavizacion Media Movil (Sin),Orden 80,207.41417750048424,-0.38945795140537975
+Suavizacion Exp Simple,add,300.4290307026337,-1.9150923941558422
+Suavizacion Exp Simple,mul,300.42829205135007,-1.915078059761547
+Suavizacion Exp Lineal (Holt),add/add,370.15797395391576,-3.4253003282937904
+Suavizacion Exp Lineal (Holt),add/mul,381.5459106755389,-3.7017781957570524
+Suavizacion Exp Lineal (Holt),mul/add,371.54434692642747,-3.4585110453262606
+Suavizacion Exp Lineal (Holt),mul/mul,394.3490983433181,-4.022619003305967
+Suavizacion Exp Lineal (Holt),add/None,300.4290307026337,-1.9150923941558422
+Suavizacion Exp Lineal (Holt),mul/None,300.42829205135007,-1.915078059761547
+Suavizacion Exp Lineal de Winters (Holt-Winters),add/add/add,163.61497615822537,0.13540118105812515
+Suavizacion Exp Lineal de Winters (Holt-Winters),add/add/mul,156.4147371427629,0.20982393675762268
+Suavizacion Exp Lineal de Winters (Holt-Winters),add/mul/add,169.23971278424304,0.07493320921765134
+Suavizacion Exp Lineal de Winters (Holt-Winters),add/mul/mul,154.8370757910298,0.22568360898673967
+Suavizacion Exp Lineal de Winters (Holt-Winters),mul/mul/mul,160.5770467244098,0.1672100727341489
+Suavizacion Exp Lineal de Winters (Holt-Winters),mul/add/add,166.3844840489972,0.10588335511763725
+Suavizacion Exp Lineal de Winters (Holt-Winters),mul/add/mul,162.24978509097454,0.1497692819136488
+Suavizacion Exp Lineal de Winters (Holt-Winters),mul/mul/add,169.11126644886753,0.07633685552362235
+Suavizacion Exp Lineal de Winters (Holt-Winters),add/add/None,370.15797395391576,-3.4253003282937904
+Suavizacion Exp Lineal de Winters (Holt-Winters),add/None/add,74.99417962628061,0.8183549160989704
+Suavizacion Exp Lineal de Winters (Holt-Winters),add/None/None,300.4290307026337,-1.9150923941558422
+Suavizacion Exp Lineal de Winters (Holt-Winters),add/mul/None,381.5459106755389,-3.7017781957570524
+Suavizacion Exp Lineal de Winters (Holt-Winters),add/None/mul,93.49752785257962,0.7176623555769823
+Suavizacion Exp Lineal de Winters (Holt-Winters),mul/mul/None,394.3490983433181,-4.022619003305967
+Suavizacion Exp Lineal de Winters (Holt-Winters),mul/None/add,115.88916054316053,0.5662353407865679
+Suavizacion Exp Lineal de Winters (Holt-Winters),mul/None/None,300.42829205135007,-1.915078059761547
+Suavizacion Exp Lineal de Winters (Holt-Winters),mul/add/None,371.54434692642747,-3.4585110453262606
+Suavizacion Exp Lineal de Winters (Holt-Winters),mul/None/mul,97.45241134821838,0.693271796796231

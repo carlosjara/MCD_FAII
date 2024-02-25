@@ -1,0 +1,34 @@
+Quiz 2
+1. Una característica de las series estacionarias es:
+a. La serie no tiene autocorrelación
+b. La media de la serie es cero
+[X] c. La varianza no cambia con el tiempo
+d. El comportamiento siempre es el mismo en cada estación
+e. La serie tiene muchos datos
+
+2. Una forma de tener en cuenta la estacionalidad al modelar una serie es emplear:
+[X] a. Variables dummy para las estaciones
+b. Suavización Exponencial Simple (SES)
+c. Promedio Móvil
+d. Emplear tendencia polinómica
+
+3. Sobre una serie cuyo proceso generador de los datos posee una tendencia lineal se puede afirmar:
+a. La serie es estacional
+b. La serie no puede contener un componente estacional
+[X] c. La serie crecerá o decrecerá indefinidamente
+d. La serie es estacionaria
+e. La media no cambia con el tiempo
+
+4.La tendencia polinómica a diferencia de la lineal puede:
+a. Tener en cuenta la posibilidad de un componente estacional
+b. Otorgar más peso a las observaciones pasadas que a las recientes
+[X] c. Crecer o decrecer en diferentes ritmos durante del periodo estudiado
+d. Tener en cuenta la posibilidad de un componente aleatorio
+e. Otorgar más peso a las observaciones recientes que a las pasadas
+
+5.Uno de los siguientes componentes estará siempre presente en una serie de tiempo estacionaria:
+[X] a. Componente puramente aleatoria
+b.La estacionalidad
+c.Ninguna de las opciones, todas las opciones son componentes que siempre están en una serie de tiempo estacionaria
+d.La tendencia
+e.El componente (o factor) cíclico
