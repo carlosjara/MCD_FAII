@@ -10,7 +10,7 @@ a. Siempre será estacionario
 b. Siempre tiene una tendencia
 c. Siempre tendrá estacionalidad
 d. Siempre se puede convertir en un modelo MA
-[X] e. En algunas ocasiones puede ser estacionario y en otras no
+[X]  e. En algunas ocasiones puede ser estacionario y en otras no
 
 3. Si una serie de tiempo presenta una tendencia creciente, y se quiere emplear un modelo de la familia ARIMA, entonces:
 a. NO es posible emplear los modelos ARIMA
@@ -23,7 +23,7 @@ c. Se tendrá que emplear solo modelos ARMA
 a. Siempre tienen tendencia
 b. Son heteroscedásticos
 c. Todas las afirmaciones presentadas son verdaderas.
-[X] d. Son estacionarios 
+[X] d. Son estacionarios sdsd
 e. Son siempre estacionales
 
 5. La diferencia entre la ACF y la PACF para s rezagos es:

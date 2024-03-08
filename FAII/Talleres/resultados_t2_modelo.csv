@@ -1,0 +1,6 @@
+Modelo,Configuración,RMSE,Coef R2,Origen
+Tendencia Lineal + Estacionalidad,x + estacionalidad,1619.6142268040398,-83.72112169140883,Taller 2
+Tendencia Cuadratica + Estacionalidad,x**2 + estacionalidad,590.4794957116405,-10.261031517356766,Taller 2
+Tendencia Cubica + Estacionalidad,x**3 + estacionalidad,130.7439398859705,0.4479077291461727,Taller 2
+Tendencia Pol. grado 5 + Estacionalidad,x**5 + estacionalidad,91.0555267023724,0.7322181406052954,Taller 2
+Tendencia Pol. grado 7 + Estacionalidad,x**7 + estacionalidad,3712.0732960527266,-444.0426336297911,Taller 2
