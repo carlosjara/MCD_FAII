@@ -21,3 +21,8 @@ Expliquen sus ideas, el por qué realizan las acciones, y comenten los resultado
 La toma de decisiones sobre los datos se debe hacer considerando el contexto del problema y de los datos, no se puede ver todo solamente desde los ojos de los datos, sino también considerar el negocio.
 Un Científico de Datos debe poder comunicar los puntos importantes de su trabajo en un lenguaje universal para todos los públicos.
 Todo esto se considerará en la nota.
+
+
+### Integrantes
+Yasmin Garcia
+Carlos Jaramillo
