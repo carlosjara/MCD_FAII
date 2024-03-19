@@ -1,0 +1,11 @@
+Podemos generar cross validation (80/20, 90/10, 40/60, otros) para poder hacer las pruebas del modelo.
+
+la imputacion deberia hacerse unicamente con datos de train (tanto para train como para test).
+
+EDA
+grafico comparativo (dos o tres)
+analisis de valores perdidos --
+entendimiento de las correlaciones
+
+PCA
+"aqui vemos que 15 minutos principales explicar el 80% de la informacion"
