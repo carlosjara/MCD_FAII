@@ -1,0 +1,6 @@
+submission4
+se cambio la muestra a 0.2 en el holdout
+
+submission3
+se especifican las modificaciones de manera manual
+con la clase transform de reemplazo de de outliers con el metodo de tukey
