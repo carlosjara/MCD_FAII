@@ -1,0 +1,37 @@
+data_path:
+    github_csv: "https://github.com/carlosjara/MCD_FAII/blob/main/FAII/Talleres/Taller_Practico/data/df_train.csv?raw=true"
+    github_parquet: "https://github.com/carlosjara/MCD_FAII/blob/main/FAII/Talleres/Taller_Practico/data/df_train.parquet?raw=true"
+    github_parquet_test: "https://github.com/carlosjara/MCD_FAII/blob/main/FAII/Talleres/Taller_Practico/data/df_test.parquet?raw=true"
+    stage_processed : 'data/stg'
+# Configuración de la aplicación
+app_config:
+  nombre: Taller1
+  version: 1.0
+  autores: YasminGarcia/CarlosJaramillo
+  descripcion: Taller 1
+
+#Este es ejemplo de YAML
+# Configuración del servidor
+#server_config:
+#  puerto: 8080
+#  host: localhost
+#  debug: true
+
+# Configuración de la base de datos
+#database_config:
+#  tipo: MySQL
+#  nombre: mi_base_de_datos
+#  usuario: usuario_db
+#  contraseña: secreto
+#  parametros:
+#    timeout: 60
+#    max_conexiones: 100
+
+# Configuración de la interfaz de usuario
+#ui_config:
+#  tema: oscuro
+#  idioma: español
+#  colores:
+#    fondo: '#333333'
+#    texto: '#FFFFFF'
+#  tamaño_fuente: 14
