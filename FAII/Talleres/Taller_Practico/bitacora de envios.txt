@@ -1,3 +1,9 @@
+submission6
+Uso de PCA y regresion logistica con CV = 5
+
+submission5
+se ajusta media por mediana en la susticion de valores nulos
+
 submission4
 se cambio la muestra a 0.2 en el holdout
 
