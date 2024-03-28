@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\CARLOS\AppData\Local\Temp\ipykernel_34044\3294721448.py", line 73, in train
+    'mean_ks_val':np.nanmean(resultados_cv['test_ks']),
+KeyError: 'test_ks'

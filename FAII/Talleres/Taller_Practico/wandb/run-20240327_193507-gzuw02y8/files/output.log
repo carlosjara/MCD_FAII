@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\CARLOS\AppData\Local\Temp\ipykernel_34044\47251188.py", line 35, in train
+    ("ord", ordinal_transformer, ordinales),
+NameError: name 'ordinales' is not defined

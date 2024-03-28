@@ -1,0 +1,26 @@
+wandb_version: 1
+
+gamma:
+  value: 2.0392138098863146
+imputer:
+  value: knn
+imputer_strategy:
+  value: mean
+knn_imputer_k:
+  value: 4
+learning_rate:
+  value: 0.005663901632154771
+max_depth:
+  value: 9
+min_child_weight:
+  value: 4
+n_estimators:
+  value: 229
+reg_alpha:
+  value: 4
+reg_lambda:
+  value: 7
+scaler:
+  value: robust
+variance_threshold:
+  value: 0.03525448218368349

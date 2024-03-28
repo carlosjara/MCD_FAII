@@ -1,0 +1,58 @@
+Traceback (most recent call last):
+  File "C:\Users\CARLOS\AppData\Local\Temp\ipykernel_31204\4209612036.py", line 53, in train
+    resultados_cv = cross_validate(
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\sklearn\model_selection\_validation.py", line 285, in cross_validate
+    _warn_or_raise_about_fit_failures(results, error_score)
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\sklearn\model_selection\_validation.py", line 367, in _warn_or_raise_about_fit_failures
+    raise ValueError(all_fits_failed_message)
+ValueError:
+All the 5 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+5 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\sklearn\model_selection\_validation.py", line 686, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\sklearn\pipeline.py", line 401, in fit
+    Xt = self._fit(X, y, **fit_params_steps)
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\sklearn\pipeline.py", line 359, in _fit
+    X, fitted_transformer = fit_transform_one_cached(
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\joblib\memory.py", line 349, in __call__
+    return self.func(*args, **kwargs)
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\sklearn\pipeline.py", line 893, in _fit_transform_one
+    res = transformer.fit_transform(X, y, **fit_params)
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\sklearn\utils\_set_output.py", line 140, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\sklearn\compose\_column_transformer.py", line 727, in fit_transform
+    result = self._fit_transform(X, y, _fit_transform_one)
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\sklearn\compose\_column_transformer.py", line 658, in _fit_transform
+    return Parallel(n_jobs=self.n_jobs)(
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\sklearn\utils\parallel.py", line 63, in __call__
+    return super().__call__(iterable_with_config)
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\joblib\parallel.py", line 1048, in __call__
+    if self.dispatch_one_batch(iterator):
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\joblib\parallel.py", line 864, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\joblib\parallel.py", line 782, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\joblib\_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\joblib\_parallel_backends.py", line 572, in __init__
+    self.results = batch()
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\joblib\parallel.py", line 263, in __call__
+    return [func(*args, **kwargs)
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\joblib\parallel.py", line 263, in <listcomp>
+    return [func(*args, **kwargs)
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\sklearn\utils\parallel.py", line 123, in __call__
+    return self.function(*args, **kwargs)
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\sklearn\pipeline.py", line 893, in _fit_transform_one
+    res = transformer.fit_transform(X, y, **fit_params)
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\sklearn\pipeline.py", line 437, in fit_transform
+    Xt = self._fit(X, y, **fit_params_steps)
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\sklearn\pipeline.py", line 339, in _fit
+    self._validate_steps()
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\sklearn\pipeline.py", line 230, in _validate_steps
+    raise TypeError(
+TypeError: All intermediate steps should be transformers and implement fit and transform or be the string 'passthrough' 'median' (type <class 'str'>) doesn't

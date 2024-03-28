@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\sklearn\metrics\_scorer.py", line 430, in get_scorer
+    scorer = copy.deepcopy(_SCORERS[scoring])
+KeyError: 'test_f1'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\CARLOS\AppData\Local\Temp\ipykernel_33168\4209612036.py", line 53, in train
+    resultados_cv = cross_validate(
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\sklearn\model_selection\_validation.py", line 261, in cross_validate
+    scorers = _check_multimetric_scoring(estimator, scoring)
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\sklearn\metrics\_scorer.py", line 595, in _check_multimetric_scoring
+    scorers = {
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\sklearn\metrics\_scorer.py", line 596, in <dictcomp>
+    key: check_scoring(estimator, scoring=scorer)
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\sklearn\metrics\_scorer.py", line 479, in check_scoring
+    return get_scorer(scoring)
+  File "C:\Users\CARLOS\anaconda3\lib\site-packages\sklearn\metrics\_scorer.py", line 432, in get_scorer
+    raise ValueError(
+ValueError: 'test_f1' is not a valid scoring value. Use sklearn.metrics.get_scorer_names() to get valid options.
