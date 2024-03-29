@@ -1,1 +1,0 @@
-{"mean_balanced_accuracy_val": 0.5, "mean_roc_auc_val": 0.8520016967148838, "mean_average_precision_val": 0.5333400360094156, "mean_average_precision_train": 0.6000872677936611, "average_precision_test": 0.5573593076024874, "roc_auc_test": 0.8603502932318909, "_timestamp": 1711587015.789689, "_runtime": 19.512761116027832, "_step": 0, "_wandb": {"runtime": 18}}

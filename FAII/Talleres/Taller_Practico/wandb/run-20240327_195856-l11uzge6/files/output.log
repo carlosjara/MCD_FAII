@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\CARLOS\AppData\Local\Temp\ipykernel_34044\114633936.py", line 14, in train
-    steps=[("imputer", imputer),
-NameError: name 'imputer' is not defined

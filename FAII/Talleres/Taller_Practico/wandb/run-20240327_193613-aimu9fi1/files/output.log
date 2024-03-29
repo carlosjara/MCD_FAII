@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\CARLOS\AppData\Local\Temp\ipykernel_34044\3294721448.py", line 59, in train
-    resultados_cv = cross_validate(
-NameError: name 'cross_validate' is not defined

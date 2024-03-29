@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\CARLOS\AppData\Local\Temp\ipykernel_5056\361784848.py", line 23, in train
-    ('dumm',OneHotEncoder(**config_onehot))
-NameError: name 'config_onehot' is not defined
